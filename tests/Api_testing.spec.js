@@ -196,17 +196,15 @@ test.describe('Books API', async () => {
 
                 "bookId": 2,
                 "customerName": random()
-
             },
 
            headers:{
 
             "Authorization": "Invalid token value"
-
+             
            }
-
+          
         })
-
         expect(await response.status()).toBe(404)
     })
 

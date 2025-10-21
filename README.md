@@ -1,4 +1,4 @@
-# Playwright API Automation Testing
+# Playwright API Automation (Backend Testing)
 
 This repository contains API automation tests written using **Playwright Test**.  
 It demonstrates how to perform **GET, POST, and authenticated API calls** with various public APIs.

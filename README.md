@@ -3,6 +3,10 @@
 This repository contains API automation tests written using **Playwright Test**.  
 It demonstrates how to perform **GET, POST, and authenticated API calls** with various public APIs.
 
+## How to View the Code
+
+Within this repo folder Structure, Go to "test" -> Api_testing.spec.js
+
 ## Project Overview
 
 This project automates multiple API endpoints from several demo APIs:

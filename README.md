@@ -50,3 +50,7 @@ const { test, expect } = require('@playwright/test');
 // 'test' defines a test block or suite.
 // 'expect' is used for making assertions.
 
+const response = await page.request.get('[https://simple-books-api.click/books](https://simple-books-api.click/books)');
+expect(await response.status()).toBe(200);
+console.log(await response.json());
+

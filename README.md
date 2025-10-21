@@ -25,4 +25,28 @@ The purpose of this project is to:
 - **Playwright Test** — assertion and test runner  
 - **JavaScript (ES6)** — scripting language  
 
+## 🚀 Running the Tests
+
+To set up and run your API tests, follow these commands:
+
+| Command | Description |
+| :--- | :--- |
+| `npm install` | Installs all necessary Playwright dependencies. |
+| `npx playwright test` | Executes all tests in your project. |
+| `npx playwright test tests/booksApi.spec.js` | Runs tests from a specific file. |
+| `test.only()` | Marks a single test to run exclusively (useful for debugging). |
+
+---
+
+## 💻 Syntax & Concepts
+
+### Import Statements
+
+The basic structure for every test file.
+
+```javascript
+const { test, expect } = require('@playwright/test');
+
+// 'test' defines a test block or suite.
+// 'expect' is used for making assertions.
 

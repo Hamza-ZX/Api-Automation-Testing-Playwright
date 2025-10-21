@@ -207,8 +207,4 @@ test.describe('Books API', async () => {
         })
         expect(await response.status()).toBe(404)
     })
-
-    
-    
-   
 })
